@@ -3,6 +3,6 @@
 mkdir build
 pushd build
 
-cl -FC -Zi ..\src\main.c
+cl /std:c11 /FC /Zi ..\src\main.c
 
 popd
